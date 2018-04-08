@@ -12,7 +12,7 @@ Exersize 1 で開発環境はできたと思いますので,
 
 Atomで新しくファイル(ここではhello.pyとしてます)を作って, 次のようにコーディングしてみてください.
 
-```python: hello.py
+```python:hello.py
 	print("Hello, world")
 ```
 
