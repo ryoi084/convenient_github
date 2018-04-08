@@ -7,15 +7,15 @@ Pythonでは, programの初めにどのライブラリを使うかを宣言し�
 
 では, program冒頭に次のように書いてみましょう.
 
-`import numpy`
+> `import numpy`
 
-`import matplotlib.pyplot`
+> `import matplotlib.pyplot`
 
 次に, 呪文のように次の文を打ちましょう.
 
-`x = numpy.linspace(-10,10,100)`
+> `x = numpy.linspace(-10,10,100)`
 
-`fig = matplotlib.pyplot.figure()`
+> `fig = matplotlib.pyplot.figure()`
 
 後で詳しく解説しようと思います.
 
@@ -33,7 +33,7 @@ Pythonでは, programの初めにどのライブラリを使うかを宣言し�
 
 初めに
 
-`imoprt <...>`
+> `imoprt <...>`
 
 と記述したところがありました.
 
