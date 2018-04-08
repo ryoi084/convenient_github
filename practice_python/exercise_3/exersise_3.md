@@ -21,9 +21,9 @@ Pythonでは, programの初めにどのライブラリを使うかを宣言し�
 
 続いて
 
-`matplotlib.pyplot.plot(x,x**2)`
+> `matplotlib.pyplot.plot(x,x**2)`
 
-`matplotlib.pyplot.show()`
+> `matplotlib.pyplot.show()`
 
 と記述して実行してみましょう.
 
@@ -33,7 +33,7 @@ Pythonでは, programの初めにどのライブラリを使うかを宣言し�
 
 初めに
 
-> `imoprt <...>`
+> > `imoprt <...>`
 
 と記述したところがありました.
 
@@ -49,7 +49,7 @@ numpyやmatplotlibと書かれているところがいくつかあると思い�
 
 続いて
 
-`x = numpy.linspace(-10,10,100)`
+> `x = numpy.linspace(-10,10,100)`
 
 についてですが, これはNumPy内の`linspace`というモジュールによって
 
@@ -57,13 +57,13 @@ numpyやmatplotlibと書かれているところがいくつかあると思い�
 
 つまり
 
-`x = np.array([-10, -9.7979, ..., 9.7979, 10])`
+> `x = np.array([-10, -9.7979, ..., 9.7979, 10])`
 
 というふうに自動で生成されます(コレ,実は非常に便利です).
 
 また
 
-`fig = matplotlib.pyplot.figure()`
+> `fig = matplotlib.pyplot.figure()`
 
 という箇所がありますが, これは難しいので今回はこういうものであると受け入れてください.
 
@@ -71,9 +71,9 @@ numpyやmatplotlibと書かれているところがいくつかあると思い�
 
 最後に
 
-`matplotlib.pyplot.plot(x,x**2)`
+> `matplotlib.pyplot.plot(x,x**2)`
 
-`matplotlib.pyplot.show()`
+> `matplotlib.pyplot.show()`
 
 についてですが,
 
@@ -95,15 +95,15 @@ numpyやmatplotlibと書かれているところがいくつかあると思い�
 
 そこで, はじめの宣言のところでモジュールに自分で名前をつけることで, 多少楽にすることができます.
 
-例えば
+例えば, `as` という指示を用いて
 
-`import numpy as np`
+> `import numpy as np`
 
 とすれば, 以降 `numpy` の代わりに `np` のみで済むようになります.
 
 更に
 
-`import matplotlib.pyplot as plt`
+> `import matplotlib.pyplot as plt`
 
 とすれば, あの長ったらしかった `matplotlib.pyplot` の記述が たったの `plt` の三文字で済むようになります!
 
