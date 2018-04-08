@@ -29,8 +29,8 @@ pythonの `for` では, list を一つ一つ読み込むことで進んでいき
 続いて
 
 ```python
-	for i in char:
-			print(i)
+    for i in char:
+        print(i)
 ```
 
 と書いて, 実行してみましょう.
