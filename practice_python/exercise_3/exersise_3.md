@@ -19,7 +19,7 @@ Pythonでは, programの初めにどのライブラリを使うかを宣言し�
 
 次に, 呪文のように次の文を打ちましょう.
 
-> `x = numpy.linspace(-10,10,100)`
+> `x = numpy.linspace(-10, 10, 100)`
 
 > `fig = matplotlib.pyplot.figure()`
 
@@ -27,7 +27,7 @@ Pythonでは, programの初めにどのライブラリを使うかを宣言し�
 
 続いて
 
-> `matplotlib.pyplot.plot(x,x**2)`
+> `matplotlib.pyplot.plot(x, x**2)`
 
 > `matplotlib.pyplot.show()`
 
@@ -55,7 +55,7 @@ numpyやmatplotlibと書かれているところがいくつかあると思い�
  
 続いて
 
-> `x = numpy.linspace(-10,10,100)`
+> `x = numpy.linspace(-10, 10, 100)`
 
 についてですが, これはNumPy内の`linspace`というモジュールによって
 
@@ -77,7 +77,7 @@ numpyやmatplotlibと書かれているところがいくつかあると思い�
 
 最後に
 
-> `matplotlib.pyplot.plot(x,x**2)`
+> `matplotlib.pyplot.plot(x, x**2)`
 
 > `matplotlib.pyplot.show()`
 
@@ -85,7 +85,7 @@ numpyやmatplotlibと書かれているところがいくつかあると思い�
 
 上の式は見てわかる通り `x` に対して `x**2` のプロットをしています.
 
-この部分の `x**2` を `x**3` とか `x**2-40.0` とかにすることで色々変えることができます.
+この部分の `x**2` を `x**3` とか `x**2 - 40.0` とかにすることで色々変えることができます.
 
 そして, `.show()` で実際に表示をしています.
 
