@@ -14,13 +14,7 @@ Atomで新しくファイル(ここではhello.pyとしてます)を作って, �
 
 
 ```python:hello.py
-print("Hello, world")
-```
-
-```php:hello.php
-function hellow(){
-　return "hello world!";
-}
+    print("Hello, world")
 ```
 
 書けましたら, Atomの上にある[パッケージ]から
