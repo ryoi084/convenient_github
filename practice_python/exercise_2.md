@@ -1,4 +1,4 @@
-# Exersize 2
+# Exercise 2
 
 ## Pythonで文字を出力してみよう
 Exersize 1 で開発環境はできたと思いますので,

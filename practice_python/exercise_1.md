@@ -1,4 +1,4 @@
-# Excersize 1
+# Exercise 1
 
 ## Pythonをインストールしてみましょう
 Pythonとは大雑把に言うと最近はやりのプログラミング言語です.
