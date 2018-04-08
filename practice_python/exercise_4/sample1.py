@@ -1,4 +1,4 @@
-char = ("a", "b", "c")
+char = ("田仲由喜夫", "川口由紀", "矢田圭司", "小林伸吾")
 
 for i in char:
-    print(i)
+    print(i + " 先生")
