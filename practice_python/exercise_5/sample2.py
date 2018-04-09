@@ -2,8 +2,6 @@ import numpy as np
 import sys
 
 
-try_max = 10    #初期値入力の最大試行回数
-
 error_abs = 1.E-12   #求めたい答えの精度
 
 
@@ -13,24 +11,16 @@ def func(x):
     return x**2 - 2.0
 
 
-a_ini = int(input("aの初期値を入力してください => "))
-b_ini = int(input("bの初期値を入力してください => "))
+''' ここで初期値をいれる '''
+a_ini = 0
+b_ini = 2
 c_old = 0.
 
-''' 外部入力により初期値を設定 '''
 ''' f(a)*f(b) < 0 となるまで試行 '''
-for i in np.arange(0, 1000):
-    if int(i) == try_max:
-        print("もう一度プログラムを実行してください\n")
-        sys.exit()
-
-    elif func(a_ini)*func(b_ini) >= 0.:
-        print("もう一度入力し直してください\n")
-        a_ini = int(input("aの初期値を入力してください => "))
-        b_ini = int(input("bの初期値を入力してください => "))
+if func(a_ini)*func(b_ini) >= 0.:
+    print("もう一度入力し直してください\n")
+    sys.exit()
     
-    elif func(a_ini)*func(b_ini) <= 0.:
-        break
 
 ''' b > a となるように調整 '''
 if b_ini-a_ini >= 0.:
