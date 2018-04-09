@@ -2,7 +2,7 @@ import numpy as np
 import sys
 
 
-error_abs = 1.E-30   #求めたい答えの精度
+error_abs = 1.E-15   #求めたい答えの精度
 
 
 ''' f(x) = x^2 - 2.0 '''
@@ -50,5 +50,5 @@ for i in np.arange(0, 1000):
 ans = c
 
 print("f(x)=0  <=  x=",ans)
-print("試行回数", i)
+print("試行回数", i, "回")
 
