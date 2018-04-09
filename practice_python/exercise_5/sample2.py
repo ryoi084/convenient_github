@@ -2,7 +2,7 @@ import numpy as np
 import sys
 
 
-error_abs = 1.E-12   #求めたい答えの精度
+error_abs = 1.E-30   #求めたい答えの精度
 
 
 ''' f(x) = x^2 - 2.0 '''
@@ -32,7 +32,7 @@ elif b_ini-a_ini < 0.:
 
 
 ''' 二分法 '''
-for j in np.arange(0, 1000):
+for i in np.arange(0, 1000):
 
     c = (a + b)/2.  #中点を計算
 
@@ -49,5 +49,6 @@ for j in np.arange(0, 1000):
 
 ans = c
 
-print(ans)
+print("f(x)=0  <=  x=",ans)
+print("試行回数", i)
 
