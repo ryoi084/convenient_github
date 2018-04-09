@@ -54,19 +54,12 @@
 
 ![二分法](output.gif)
 
-```flow
-st=>start: 処理開始
-e=>end: 処理終了
-io1=>inputoutput: データ入力
-cond=>condition: 入力値が空
-でない？
-io2=>inputoutput: エラー出力
-（※1）:>#footnote
-sub1=>subroutine: 入力値の検証
-（※2）:>http://www.google.com[blank]
-op1=>operation: セッション開始
+簡単な流れが乗っているサイトのリンクを載せておきます.
 
-st->io1->cond
-cond(yes)->sub1->op1->e
-cond(no)->io2(right)->io1
-```
+[二分法の説明及びフローチャート](http://www.yamamo10.jp/yamamoto/lecture/2006/5E/nonlinear_equation/nonlinear_eq_html/node3.html)
+
+雑な説明になってしまいましたが, `√2 = np.sqrt(2.0)` の導出に挑戦してみましょう.
+
+今回はサンプルプログラムを載せておきます.
+
+(ちなみに, 外部入力は `<変数> = input()` で行えます)
